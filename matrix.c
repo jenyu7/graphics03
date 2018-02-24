@@ -16,7 +16,7 @@ void print_matrix(struct matrix *m) {
   int r, c;
   for(r = 0; r < 4; r ++){
     for (c = 0; c < l; c ++){
-      printf("%g", m->m[r][c]);
+      printf("%g ", m->m[r][c]);
     }
     printf("\n");
   }
